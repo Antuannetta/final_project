@@ -26,6 +26,8 @@ public class Firsttest extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        ImageButton first_imageButton = findViewById(R.id.first_imageButton);
+        first_imageButton.setImageResource(R.drawable.little2);
         Button first_que_first = findViewById(R.id.first_que_first);
         Button first_que_second = findViewById(R.id.first_que_second);
         Button first_que_third = findViewById(R.id.first_que_third);
@@ -108,6 +110,7 @@ public class Firsttest extends AppCompatActivity {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 if (checkedId == R.id.fifth_que_first) {
                     fifth_que_first.setTextColor(Color.GREEN);
+                    first_imageButton.setImageResource(R.drawable.super2);
                 } else if (checkedId == R.id.fifth_que_second) {
                     fifth_que_second.setTextColor(Color.RED);
                 }
