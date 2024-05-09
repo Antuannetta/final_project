@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Firsttest">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="Какого рода существительное КОШКА? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/first_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/first_que_first"
+                    android:textSize="20dp"
+                    android:text="мужской"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/first_que_second"
+                    android:textSize="20dp"
+                    android:text="женский"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/first_que_third"
+                    android:textSize="20dp"
+                    android:text="средний"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="Какого рода существительное МОРЕ? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/second_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_que_first"
+                    android:textSize="20dp"
+                    android:text="мужского"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_que_second"
+                    android:textSize="20dp"
+                    android:text="женского"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_que_third"
+                    android:textSize="20dp"
+                    android:text="среднего"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="Какого рода существительное ТЕЛЕФОН? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/third_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/third_que_first"
+                    android:textSize="20dp"
+                    android:text="мужского"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/third_que_second"
+                    android:textSize="20dp"
+                    android:text="женского"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/third_que_third"
+                    android:textSize="20dp"
+                    android:text="среднего"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="Какого рода существительное МУЗЫКА? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/fourth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fourth_que_first"
+                    android:textSize="20dp"
+                    android:text="мужского"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fourth_que_second"
+                    android:textSize="20dp"
+                    android:text="женского"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fourth_que_third"
+                    android:textSize="20dp"
+                    android:text="среднего"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="Какого рода существительное МАГАЗИН? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/fifth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_que_first"
+                    android:textSize="20dp"
+                    android:text="мужского"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_que_second"
+                    android:textSize="20dp"
+                    android:text="женского"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_que_third"
+                    android:textSize="20dp"
+                    android:text="среднего"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

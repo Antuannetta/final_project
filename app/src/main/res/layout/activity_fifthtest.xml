@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fifthtest">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="1. На какие главные вопросы отвечает родительный падеж?">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/fifth_first_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_first_que_first"
+                    android:textSize="20dp"
+                    android:text="кого? чего?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_first_que_second"
+                    android:textSize="20dp"
+                    android:text="кому? чему?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_first_que_third"
+                    android:textSize="20dp"
+                    android:text="кем? чем?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="2. Необходимо выбрать правильную форму личного местоимения ТЫ в родительном падеже  ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/fifth_second_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_second_que_first"
+                    android:textSize="20dp"
+                    android:text="тобой"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_second_que_second"
+                    android:textSize="20dp"
+                    android:text="тебя"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_second_que_third"
+                    android:textSize="20dp"
+                    android:text="тебе"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="3. Необходимо выбрать правильную форму личного местоимения ОНИ в родительном падеже">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/fifth_third_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_third_que_first"
+                    android:textSize="20dp"
+                    android:text="ими"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_third_que_second"
+                    android:textSize="20dp"
+                    android:text="их"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_third_que_third"
+                    android:textSize="20dp"
+                    android:text="нас"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="4. Необходимо выбрать правильную форму существительного в предложении: Я не представляю своей жизни без любимого ...">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/fifth_fourth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_fourth_que_first"
+                    android:textSize="20dp"
+                    android:text="человек"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_fourth_que_second"
+                    android:textSize="20dp"
+                    android:text="человека"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_fourth_que_third"
+                    android:textSize="20dp"
+                    android:text="человеком"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="5. Необходимо выбрать правильную форму существительного в предложении: Моего ... нет на столе. ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/fifth_fifth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_fifth_que_first"
+                    android:textSize="20dp"
+                    android:text="письмо"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_fifth_que_second"
+                    android:textSize="20dp"
+                    android:text="письмом"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/fifth_fifth_que_third"
+                    android:textSize="20dp"
+                    android:text="письма"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+            <ImageButton
+                android:id="@+id/fifth_imageButton"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

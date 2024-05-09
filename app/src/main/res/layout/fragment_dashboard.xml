@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/firstitemtest"
+                android:text="1. Тест: Имя существительное"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/seconditemtest"
+                android:text="2. Тест: Имя прилагательное"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/thirditemtest"
+                android:text="3. Тест: Предложный падеж"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/forthitemtest"
+                android:text="4. Тест: Винительный падеж"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/fifthitemtest"
+                android:text="5. Тест: Родительный падеж"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/sixthitemtest"
+                android:text="6. Тест: Дательный падеж"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/seventhitemtest"
+                android:text="7. Тест: Творительный падеж"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

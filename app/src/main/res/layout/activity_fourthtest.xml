@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fourthtest">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="1. На какие главные вопросы отвечает винительный падеж?">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_first_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_first_que_first"
+                    android:textSize="20dp"
+                    android:text="кому? чему?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_first_que_second"
+                    android:textSize="20dp"
+                    android:text="кто? что?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_first_que_third"
+                    android:textSize="20dp"
+                    android:text="кого? что?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="2. С какими предлогами мы чаще всего используем винительный падеж? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_second_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_second_que_first"
+                    android:textSize="20dp"
+                    android:text="в, на, о (об)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_second_que_second"
+                    android:textSize="20dp"
+                    android:text="из, до, с"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_second_que_third"
+                    android:textSize="20dp"
+                    android:text="за, про, через"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="3. Выберите правильную форму личного местоимения ОНА в винительном падеже ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_third_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_third_que_first"
+                    android:textSize="20dp"
+                    android:text="ей"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_third_que_second"
+                    android:textSize="20dp"
+                    android:text="её"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_third_que_third"
+                    android:textSize="20dp"
+                    android:text="ней"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="4. Выберите правильную форму личного местоимения ВЫ в винительном падеже ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_fourth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_fourth_que_first"
+                    android:textSize="20dp"
+                    android:text="вам"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_fourth_que_second"
+                    android:textSize="20dp"
+                    android:text="вас"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_fourth_que_third"
+                    android:textSize="20dp"
+                    android:text="вами"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="5. Выберите правильную форму личного местоимения ТЫ в винительном падеже ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_fifth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_fifth_que_first"
+                    android:textSize="20dp"
+                    android:text="тебя"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_fifth_que_second"
+                    android:textSize="20dp"
+                    android:text="тобой"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_fifth_que_third"
+                    android:textSize="20dp"
+                    android:text="тебе"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="6. Выберите правильную форму личного местоимения МЫ в винительном падеже ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_sixth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_sixth_que_first"
+                    android:textSize="20dp"
+                    android:text="мне"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_sixth_que_second"
+                    android:textSize="20dp"
+                    android:text="нам"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_sixth_que_third"
+                    android:textSize="20dp"
+                    android:text="нас"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="7. Выберите правильную форму личного местоимения Я в винительном падеже ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_seventh_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_seventh_que_first"
+                    android:textSize="20dp"
+                    android:text="мной"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_seventh_que_second"
+                    android:textSize="20dp"
+                    android:text="мне"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_seventh_que_third"
+                    android:textSize="20dp"
+                    android:text="меня"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="8. Необходимо выбрать правильуню форму существительного в предложении: Я не вижу свою ...">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_eight_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_eight_que_first"
+                    android:textSize="20dp"
+                    android:text="сестра"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_eight_que_second"
+                    android:textSize="20dp"
+                    android:text="сестру"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_eight_que_third"
+                    android:textSize="20dp"
+                    android:text="сестрой"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="9. Необходимо выбрать правильуню форму существительного в предложении: Моя мама любит этот лимонный ...">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_ninth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_ninth_que_first"
+                    android:textSize="20dp"
+                    android:text="торт"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_ninth_que_second"
+                    android:textSize="20dp"
+                    android:text="торта"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_ninth_que_third"
+                    android:textSize="20dp"
+                    android:text="тортом"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="10. Необходимо выбрать правильуню форму существительного в предложении: Не трогай эту ...">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_tenth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_tenth_que_first"
+                    android:textSize="20dp"
+                    android:text="тетради"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_tenth_que_second"
+                    android:textSize="20dp"
+                    android:text="тетрадь"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_tenth_que_third"
+                    android:textSize="20dp"
+                    android:text="тетрадкой"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="11. Необходимо выбрать правильуню форму существительного в предложении: Он часто опаздывает на ...">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_eleventh_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_eleventh_que_first"
+                    android:textSize="20dp"
+                    android:text="встреча"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_eleventh_que_second"
+                    android:textSize="20dp"
+                    android:text="встречи"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_eleventh_que_third"
+                    android:textSize="20dp"
+                    android:text="встречой"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="12. Необходимо выбрать правильуню форму существительного в предложении: Я планирую подарить тебе этот ...">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_twelv_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_twelv_que_first"
+                    android:textSize="20dp"
+                    android:text="планшет"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_twelv_que_second"
+                    android:textSize="20dp"
+                    android:text="планшета"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_twelv_que_third"
+                    android:textSize="20dp"
+                    android:text="планшеты"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="13. Необходимо выбрать правильуню форму существительного в предложении: В понедельник я встретила своего старого ...">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/forth_thirteen_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_thirteen_que_first"
+                    android:textSize="20dp"
+                    android:text="друг"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_thirteen_que_second"
+                    android:textSize="20dp"
+                    android:text="друга"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/forth_thirteen_que_third"
+                    android:textSize="20dp"
+                    android:text="друзья"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <ImageButton
+                android:id="@+id/forth_imageButton"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+            </ImageButton>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Seventhtest">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="1. На какие главные вопросы отвечает творительный падеж?">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/seventh_first_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_first_que_first"
+                    android:textSize="20dp"
+                    android:text="кого? чего?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_first_que_second"
+                    android:textSize="20dp"
+                    android:text="о ком? о чём?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_first_que_third"
+                    android:textSize="20dp"
+                    android:text="кем? чем?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="2. С какими предлогами мы чаще всего используем винительный падеж? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/seventh_second_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_second_que_first"
+                    android:textSize="20dp"
+                    android:text="с (со)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_second_que_second"
+                    android:textSize="20dp"
+                    android:text="на, в "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_second_que_third"
+                    android:textSize="20dp"
+                    android:text="о (об)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="3. Нобходимо выбрать праивльную форму личного местоимения ОНО? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/seventh_third_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_third_que_first"
+                    android:textSize="20dp"
+                    android:text="ими"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_third_que_second"
+                    android:textSize="20dp"
+                    android:text="им"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_third_que_third"
+                    android:textSize="20dp"
+                    android:text="ему"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="4. Выберите правильную форму существительного в предложении: Я занимаюсь ...">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/seventh_fourth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_fourth_que_first"
+                    android:textSize="20dp"
+                    android:text="спорт"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_fourth_que_second"
+                    android:textSize="20dp"
+                    android:text="спорта"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_fourth_que_third"
+                    android:textSize="20dp"
+                    android:text="спортом"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="5. Выберите правильную форму существительного с прилагательным в предложении: Я считаю себя ...">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/seventh_fifth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_fifth_que_first"
+                    android:textSize="20dp"
+                    android:text="хороший друг"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_fifth_que_second"
+                    android:textSize="20dp"
+                    android:text="хорошим другом"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/seventh_fifth_que_third"
+                    android:textSize="20dp"
+                    android:text="хорошем друге"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+            <ImageButton
+                android:id="@+id/seventh_imageButton"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

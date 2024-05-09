@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Secondtest">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="1. Что обозначает имя прилагательное?">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/second_first_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_first_que_first"
+                    android:textSize="20dp"
+                    android:text="действие"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_first_que_second"
+                    android:textSize="20dp"
+                    android:text="предмет"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_first_que_third"
+                    android:textSize="20dp"
+                    android:text="признак предмета"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="2. Что необходимо сделать, чтобы образовать сравнительную степень прилагательного? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/second_second_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_second_que_first"
+                    android:textSize="20dp"
+                    android:text="добавить слово САМЫЙ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_second_que_second"
+                    android:textSize="20dp"
+                    android:text="поменять окончание на ЕЕ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_second_que_third"
+                    android:textSize="20dp"
+                    android:text="ничего"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="3. Что необходимо сделать, чтобы образовать превосходную степень прилагательного? ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/second_third_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_third_que_first"
+                    android:textSize="20dp"
+                    android:text="добавить слово САМЫЙ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_third_que_second"
+                    android:textSize="20dp"
+                    android:text="поменять окончание на ЕЕ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_third_que_third"
+                    android:textSize="20dp"
+                    android:text="ничего"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="4. В какой степени стоит прилагательное ДОЛЬШЕ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/second_fourth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_fourth_que_first"
+                    android:textSize="20dp"
+                    android:text="в превосходной"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_fourth_que_second"
+                    android:textSize="20dp"
+                    android:text="в сравнительной"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_fourth_que_third"
+                    android:textSize="20dp"
+                    android:text="ни один вариант не подходит"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="20dp"
+                android:text="5. В какой степени стоит прилагательное ЛУЧШИЙ ">
+            </TextView>
+            <RadioGroup
+                android:id="@+id/second_fifth_que"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_fifth_que_first"
+                    android:textSize="20dp"
+                    android:text="в превосходной"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_fifth_que_second"
+                    android:textSize="20dp"
+                    android:text="в сравнительной"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+                <RadioButton
+                    android:buttonTint="@color/black"
+                    android:id="@+id/second_fifth_que_third"
+                    android:textSize="20dp"
+                    android:text="ни один вариант не подходит"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </RadioButton>
+            </RadioGroup>
+        <ImageButton
+            android:id="@+id/second_imageButton"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+        </ImageButton>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

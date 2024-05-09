@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/firstitem"
+                android:text="1. Имя существительное (noun)"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/seconditem"
+                android:text="2. Имя прилагательное (adjective)"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/thirditem"
+                android:text="3. Предложный падеж (prepostional)"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/fourthitem"
+                android:text="4. Винительный падеж (acussative)"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/fifthitem"
+                android:text="5. Родительный падеж (genitive)"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/sixthitem"
+                android:text="6. Дательный падеж (dative)"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+            <Button
+                android:id="@+id/seventhitem"
+                android:text="7. Творительный падеж (instrumental)"
+                android:layout_marginLeft="40dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp">
+
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    
+</LinearLayout>
