@@ -21,7 +21,7 @@
                 android:textSize="20dp"
                 android:layout_marginTop="60dp"
                 android:layout_marginBottom="20dp"
-                android:text="Какого рода существительное КОШКА? ">
+                android:text="1. Какого рода существительное КОШКА? ">
             </TextView>
             <RadioGroup
                 android:id="@+id/first_que"
@@ -61,7 +61,7 @@
                 android:textSize="20dp"
                 android:layout_marginTop="60dp"
                 android:layout_marginBottom="20dp"
-                android:text="Какого рода существительное МОРЕ? ">
+                android:text="2. Какого рода существительное МОРЕ? ">
             </TextView>
             <RadioGroup
                 android:id="@+id/second_que"
@@ -102,7 +102,7 @@
                 android:textSize="20dp"
                 android:layout_marginTop="60dp"
                 android:layout_marginBottom="20dp"
-                android:text="Какого рода существительное ТЕЛЕФОН? ">
+                android:text="3. Какого рода существительное ТЕЛЕФОН? ">
             </TextView>
             <RadioGroup
                 android:id="@+id/third_que"
@@ -143,7 +143,7 @@
                 android:textSize="20dp"
                 android:layout_marginTop="60dp"
                 android:layout_marginBottom="20dp"
-                android:text="Какого рода существительное МУЗЫКА? ">
+                android:text="4. Какого рода существительное МУЗЫКА? ">
             </TextView>
             <RadioGroup
                 android:id="@+id/fourth_que"
@@ -184,7 +184,7 @@
                 android:textSize="20dp"
                 android:layout_marginTop="60dp"
                 android:layout_marginBottom="20dp"
-                android:text="Какого рода существительное МАГАЗИН? ">
+                android:text="5. Какого рода существительное МАГАЗИН? ">
             </TextView>
             <RadioGroup
                 android:id="@+id/fifth_que"
@@ -218,6 +218,13 @@
 
                 </RadioButton>
             </RadioGroup>
+             <ImageButton
+                android:id="@+id/first_imageButton"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+            </ImageButton>
 
 
         </LinearLayout>
